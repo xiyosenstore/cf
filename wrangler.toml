@@ -10,7 +10,7 @@ routes = [
   { pattern = "ava.game.naver.com.changli.ouzora.dpdns.org", custom_domain = true },
   { pattern = "bimbel.ruangguru.com.changli.ouzora.dpdns.org", custom_domain = true },
   { pattern = "support.zoom.us.siren.changli.dpdns.org", custom_domain = true },
-  { pattern = "nontontv.vidio.com.siren.changli.dpdns.org", custom_domain = true },
+  { pattern = "nontontv.vidio.com.changli.ouzora.dpdns.org", custom_domain = true },
 
 ]
 
@@ -29,5 +29,5 @@ build = { command = "cargo install worker-build && worker-build --dev" }
 
 [vars]
 UUID = "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
-MAIN_PAGE_URL = "https://raw githubusercontent.com/xiyosenstore/sirenlink/main/link.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/xiyosenstore/sirenlink/main/link.html"
 SUB_PAGE_URL = "https://raw.githubusercontent.com/zerokit-769/cf/refs/heads/main/web/sub.html"
