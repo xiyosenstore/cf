@@ -12,6 +12,7 @@ routes = [
   { pattern = "bimbel.ruangguru.com.changli.ouzora.dpdns.org", custom_domain = true },
   { pattern = "support.zoom.us.siren.changli.dpdns.org", custom_domain = true },
   { pattern = "nontontv.vidio.com.siren.changli.dpdns.org", custom_domain = true },
+
 ]
 
 account_id = "ea1aab81dc8e22018131832d124a54fc"
