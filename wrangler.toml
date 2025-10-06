@@ -1,14 +1,22 @@
-name = "changli"
+name = "siren"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
+routes = [
+  
+  { pattern = "siren.ouzora.dpdns.org", custom_domain = true },  
+  { pattern = "collection.linefriends.com.siren.ouzora.dpdns.org", custom_domain = true },  
+  { pattern = "ava.game.naver.com.siren.ouzora.dpdns.org", custom_domain = true },
+  { pattern = "nontontv.vidio.com.siren.ouzora.dpdns.org", custom_domain = true },
+]
+
 
 account_id = "ea1aab81dc8e22018131832d124a54fc"
 workers_dev = true
 
 [[kv_namespaces]]
 binding = "YUMI"
-id = "d26c97b5cc29416dbe3fcbea34b6c820"
+id = "8ff1913fa986482d967e0a5c7e2b0791"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
@@ -18,5 +26,5 @@ build = { command = "cargo install worker-build && worker-build --dev" }
 
 [vars]
 UUID = "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/zerokit-769/cf/refs/heads/main/web/index.html"
+MAIN_PAGE_URL = "https://raw githubusercontent.com/xiyosenstore/sirenlink/main/link.html"
 SUB_PAGE_URL = "https://raw.githubusercontent.com/zerokit-769/cf/refs/heads/main/web/sub.html"
